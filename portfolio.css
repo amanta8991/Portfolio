@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: azure;
+}
+
+#underline {
+    color: azure;
+    position: relative;
+}
+
+#underline:hover {
+    color: #5CBB81;
+}
+
+.line a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #5CBB81;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.line a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.navbar-toggler {
+    color: rgb(0 0 0);
+}
+
+.banner {
+    background-color: black;
+}
+
+.row {
+    margin: 0px;
+}
+
+#cl {
+    background-image: url(./Images/WhatsApp\ Image\ 2023-10-16\ at\ 12.12.33\ AM.jpeg);
+    height: 550px;
+}
+
+#col {
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.text-1 {
+    font-size: 27px;
+}
+
+.text-2 {
+    font-size: 75px;
+    font-weight: 600;
+}
+
+.text-3 {
+    font-size: 40px;
+}
+
+.text-3 span {
+    color: #5CBB81;
+}
+
+.social a {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    font-size: 17px;
+    color: azure;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.social a:hover {
+    transform: scale(1.1);
+    background-color: #5CBB81;
+    transition: 1s;
+}
+
+#col button {
+    color: azure;
+    background-color: #5CBB81;
+    margin-top: 20px;
+    width: 25%;
+    height: 50px;
+}
+
+#col button:hover {
+    color: azure;
+    background-color: #1f7a42;
+}
+
+.about,
+.skills,
+.contact {
+    color: black;
+}
+
+h1 {
+    text-decoration: underline #5CBB81 3px;
+    text-underline-offset: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.about button {
+    color: azure;
+    background-color: #5CBB81;
+    margin-top: 20px;
+    width: 15%;
+    height: 50px;
+}
+
+.about button:hover {
+    color: azure;
+    background-color: #1f7a42;
+}
+
+.services {
+    background-color: black;
+    color: azure;
+}
+
+.progress-bar {
+    background-color: #5CBB81;
+}
+
+.portfolio {
+    background-color: black;
+}
+
+.portfolio button {
+    color: azure;
+    background-color: #5CBB81;
+    margin-top: 20px;
+    width: 15%;
+    height: 50px;
+}
+
+.portfolio button:hover {
+    color: azure;
+    background-color: #1f7a42;
+}
+
+.mailto {
+    text-decoration: none;
+    color: #5CBB81;
+}
+
+.mailto:hover {
+    color: #1f7a42;
+}
+
+textarea {
+    resize: none;
+}
+
+.contact button {
+    color: azure;
+    background-color: #5CBB81;
+    margin-top: 10px;
+    width: 35%;
+    height: 50px;
+}
+
+.contact button:hover {
+    color: azure;
+    background-color: #1f7a42;
+}
+
+.footer {
+    background-color: black;
+}
+
+.services-icon {
+    border: 1px solid #5CBB81;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #5CBB81;
+}
+
+.services-icon i {
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.card:hover{
+background-color: #5CBB81;
+color: azure;
+}
+
+.card:hover .services-icon{
+    background-color: azure;
+    transition: ease 1s;
+}
+
+.card:hover .services-icon i{
+    color: #5CBB81;
+}
+
+.port:hover{
+    box-shadow: 0 4px 8px 0 #1b3b27, 0 6px 20px 0 #1b3b27;
+    transform: scale(1.03);
+}
+
+
+
+@media (max-width: 991px) {
+    a:hover:after {
+        display: none;
+    }
+}
